@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: "Public Sans", sans-serif;
+  width: 100vw;
+  background-color: whitesmoke;
+}
+
+.container {
+  margin: auto;
+  margin-top: 40px;
+  max-width: 80vw;
+}
+
+.liste {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.miniListe {
+  margin-top: 20px;
+  margin-right: 10px;
+  min-width: 100px;
+  max-width: 170px;
+  height: 140px;
+  padding-left: 25px;
+  padding-right: 15px;
+  padding-top: 10px;
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: 2px 2px 3px 3px #919191;
+}
+
+#cssButton {
+  position: relative;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  display: block;
+  padding: 0.3em 0.5em 0.3em 0.5em;
+  border-radius: 5px;
+  background-color: #5bc0de;
+  color: white;
+  box-shadow: 2px 2px rgba(0, 0, 0, 0.75);
+  margin-bottom: 2px;
+}
+#cssButton:hover {
+  background-color: #526164;
+  transition: 100ms;
+  box-shadow: none;
+  margin-left: 2px;
+}
